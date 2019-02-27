@@ -2,60 +2,107 @@
 
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="wide=device-width,initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wide=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 
-        <title>TKU60</title>
-<style>
-#container{
+    <title>TKU60</title>
+    <style>
+        #container {
 
-    width: 930px;
-    height: 480px;
+            width: 930px;
+            height: 480px;
 
-    background-color: blanchedalmond;
+            background-color: blanchedalmond;
 
-}
+            border: 2px solid rgb(74, 206, 188);
 
-#player{
+        }
 
-    width: 600px;
-    height: 100px;
+        #player {
 
-    background-color: gray;
+            width: 600px;
+            height: 100%;
 
-    float: left;
-}
+            background-color: gray;
 
-#aside{
-
-    width: 330px;
-    height: 100px;
-
-    background-color: aliceblue;
-
-    float: right;
-}
-
-</style>
-
-    </head>
+            float: left;
 
 
-    <body>
-        <div id="container">
-            <div id="player">
+        }
 
-            </div>
+        #aside {
 
-            <div id="aside">
+            width: 330px;
+            height: 100%;
 
-            </div>
+            background-color: rgb(231, 142, 213);
+
+            float: right;
+        }
+
+        .pic {
+
+            width: 100px;
+            height: 70px;
+
+        }
+
+        tr{
+            background-color: white;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div id="container">
+        <div id="player">
+            <iframe width="600" height="100%" src="https://www.youtube.com/embed/RechrtUxfQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
 
-    </body>
+        <div id="aside">
+
+            <table>
+                <tr>1</tr>
+                <td>
+                    <img src="TKU1.png" class="pic" />
+                </td>
+                <td>淡江大戲《那些淡江教我們的事》part1</td>
+
+                <tr>2</tr>
+                <td>
+                    <img src="TKU2.png" class="pic" />
+                </td>
+                <td>淡江大戲《那些淡江教我們的事》part2</td>
+
+                <tr>3</tr>
+                <td>
+                    <img src="TKU3.png" class="pic" />
+                </td>
+                <td>淡江大戲《那些淡江教我們的事》part3</td>
+
+                <tr>4</tr>
+                <td>
+                    <img src="TKU4.png" class="pic" />
+                </td>
+                <td>淡江大戲《那些淡江教我們的事》part4</td>
+
+                <tr>5</tr>
+                <td>
+                    <img src="TKU5.png" class="pic" />
+                </td>
+                <td>淡江大戲《那些淡江教我們的事》part5</td>
+                
+            </table>
+        </div>
+    </div>
+
+</body>
 
 
 
