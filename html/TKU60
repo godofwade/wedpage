@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="wide=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+        <title>TKU60</title>
+<style>
+#container{
+
+    width: 930px;
+    height: 480px;
+
+    background-color: blanchedalmond;
+
+}
+
+#player{
+
+    width: 600px;
+    height: 100px;
+
+    background-color: gray;
+
+    float: left;
+}
+
+#aside{
+
+    width: 330px;
+    height: 100px;
+
+    background-color: aliceblue;
+
+    float: right;
+}
+
+</style>
+
+    </head>
+
+
+    <body>
+        <div id="container">
+            <div id="player">
+
+            </div>
+
+            <div id="aside">
+
+            </div>
+        </div>
+
+    </body>
+
+
+
+
+</html>
